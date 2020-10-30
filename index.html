@@ -3,22 +3,11 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Made by Night</title>
+  <title>Portfolio Thomas Popelier</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta content="" name="keywords">
   <meta name="description" content="">
   <meta name="author" content="">
-  
-  
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-167911507-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-167911507-1');
-</script>
 
   <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
   <meta property="og:title" content="">
@@ -35,7 +24,11 @@
   <meta name="twitter:image" content="">
 
   <!-- Place your favicon.ico and apple-touch-icon.png in the template root directory -->
-  <link href="favicon.ico" rel="shortcut icon">
+  <link href="resources/favicon/favicon.ico" rel="shortcut icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="resources/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="resources/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="resources/favicon/favicon-16x16.png">
+  <link rel="manifest" href="resources/favicon/site.webmanifest">
 
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -46,61 +39,92 @@
   <!-- Emoji Stylesheet file -->
   <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--  custom fonts CSS -->
+  <link href="https://fonts.googleapis.com/css2?family=Balthazar&display=swap" rel="stylesheet">
 
   <!--  animate CSS -->
   <link href="css/animate.min.css" rel="stylesheet">
-
-  <!--  custom fonts CSS -->
-
-<link href="https://fonts.googleapis.com/css?family=Balthazar|Cormorant|Source+Sans+Pro&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
 
+  <!-- Navigation -->
+  <div class ="container">
+  <nav class="navbar navbar-expand-lg navbar-light  static-top">
+
+      <a class="navbar-brand" href="index.html">
+        <img src="resources/logo.png" width="205" height="38" alt="">
+
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="digital.html">work
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="studio.html">studio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">experiments</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+</div>
 
   <!-- Page Content -->
-
-
-
-<div class="jumbotron vertical-center text-center zeromargin">
-  <div class="container">
-    <a class ="headerText">Made by Night</a>
-    <div class ="row justify-content-md-center">
-      <div class ="col col-lg-4 col-md-6 col-sd-3 text-justify">
-        <p>
-          Made by night is a boutique design studio with a focus on industrial design. We bridge digital and physical product development to deliver supreme experiences with an aim on high quality products.
-        </p>
-      </div>
+<div class="container">
+  <div class ="row overflow-hidden toppadding">
+    <div class="col-lg-4 col-md-6 nopadding">
+      <div class = "gridlayout wow fadeInUp delay1">
+        <a href="#"><img src="resources/faucet_cover.png" class="img-fluid" alt="img"></a>
+        <div class="overlay ">
+          <div class="textoverlay">faucet</div>
+        </div>
     </div>
-    <div class="row justify-content-md-center">
-   <div class="col extraText">
-    <a href="https://www.instagram.com/made.by.night"> Instagram </a>
-      - Made by night -
-     <a href ="https://www.theconnectedloop.com">TCL</a>
-   </div>
- </div>
+    </div>
+    <div class="col-lg-4 col-md-6 nopadding">
+      <div class = "gridlayout wow fadeInUp delay2">
+        <a href="#"><img src="resources/watch_cover.png" class="img-fluid" alt="img"></a>
+        <div class="overlay ">
+          <div class="textoverlay">watch</div>
+        </div>
+    </div>
+    </div>
+    <div class="col-lg-4 col-md-6 nopadding">
+      <div class = "gridlayout wow fadeInUp delay3">
+        <a href="#"><img src="resources/cookware_cover.png" class="img-fluid" alt="img"></a>
+        <div class="overlay ">
+          <div class="textoverlay">cookware</div>
+        </div>
+    </div>
+    </div>
+  </div>
 </div>
-</div>
 
-  <!-- Bootstrap core JavaScript
-  <script src="jquery/jquery.slim.min.js"></script>
-  <script src="js/bootstrap.bundle.min.js"></script>
- -->
+<!-- Bootstrap core JavaScript
+<script src="jquery/jquery.slim.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+-->
 
-  <!-- Required JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-  <script src="lib/superfish/hoverIntent.js"></script>
-  <script src="lib/superfish/superfish.min.js"></script>
-  <script src="lib/morphext/morphext.min.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/stickyjs/sticky.js"></script>
-  <script src="lib/easing/easing.js"></script>
+<!-- Required JavaScript Libraries -->
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="lib/superfish/hoverIntent.js"></script>
+<script src="lib/superfish/superfish.min.js"></script>
+<script src="lib/morphext/morphext.min.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/stickyjs/sticky.js"></script>
+<script src="lib/easing/easing.js"></script>
 
-  <!-- Template Specisifc Custom Javascript File -->
-  <script src="js/custom.js"></script>
+<!-- Template Specisifc Custom Javascript File -->
+<script src="js/custom.js"></script>
 
 </body>
 
