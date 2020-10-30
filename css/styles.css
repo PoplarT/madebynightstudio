@@ -199,3 +199,12 @@ background-color: coral;
   text-align: center;
 }
 
+/* mobile css */
+
+@media (max-width: 575.98px) {
+
+  h3{
+    font-size: 1.5rem;
+  }
+
+}
