@@ -76,14 +76,13 @@ transition: .5s ease;
 
 }
 
-.about-header{
+.about-header {
   font-family: 'Cormorant', serif;
   text-align: left;
-  color: black;
   font-weight: bold;
-
-  font-size: 1.5em;
   margin-left: 15px;
+  font-size: 1.5em;
+  display: block;
 
 }
 
@@ -103,7 +102,7 @@ transition: .5s ease;
   font-family: 'Source Sans Pro', sans-serif;
   text-align: left;
   color: black;
-  font-size: 1.2em;
+  font-size: 1.2rem;
 
   margin-left: 15px;
 }
@@ -198,6 +197,7 @@ background-color: coral;
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
 
 /* mobile css */
 
