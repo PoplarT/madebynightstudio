@@ -1,14 +1,11 @@
 
-/*body {
-    min-height: 100%;
-    margin: 0;
-    padding: 0;
-}
-html {
-    height: 100%;
-}
-*/
 /* NAVBAR EXTRAS */
+
+.navbarborder {
+  border: 0;
+}
+
+
 .collapse.in {
       display: block;
 }
@@ -19,6 +16,21 @@ html {
 
 }
 
+ul-1  {
+  list-style-type: circle;
+}
+
+.fa-linkedin {
+  color: black;
+}
+.fa-instagram-square {
+  color: black;
+}
+
+
+.cornersimg {
+  border-radius: 50px;
+}
 
 /* padding */
 .nopadding {
@@ -43,6 +55,8 @@ html {
   position: relative;
 
 /*  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px;*/
+border-radius: 50px;
+
   transition: all .3s ease-in-out;
 }
 
@@ -56,6 +70,7 @@ html {
 
   box-shadow: #D6D6D6 0px 14px 15px;
   transform: translate3d(0px, -15px, 0px);
+  border-radius: 50px;
 transition: .5s ease;
 }
 
@@ -90,9 +105,8 @@ transition: .5s ease;
   font-family: 'Cormorant', serif;
   text-align: left;
   color: black;
-  font-size: 1.5em;
+  font-size: 1.75em;
   font-weight: bold;
-  margin-left: 15px;
   border-bottom: 3px solid #000000;
   padding-bottom: 0px;
 
@@ -103,8 +117,6 @@ transition: .5s ease;
   text-align: left;
   color: black;
   font-size: 1.2rem;
-
-  margin-left: 15px;
 }
 
 .aboutText{
@@ -163,6 +175,8 @@ background-color: coral;
 
 .overlay {
   position: absolute;
+  border-radius: 50px;
+
   top: 0;
   bottom: 0;
   left: 0;
@@ -205,6 +219,11 @@ background-color: coral;
 
   h3{
     font-size: 1.5rem;
+  }
+
+  .textsmall{
+    font-size: 100% !important;
+
   }
 
 }
