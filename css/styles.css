@@ -66,6 +66,7 @@ border-radius: 50px;
 
 }
 
+
 .gridlayout:hover{
 
   box-shadow: #D6D6D6 0px 14px 15px;
@@ -227,3 +228,15 @@ background-color: coral;
   }
 
 }
+
+@media (min-width: 768px) {
+
+  .verticalAlign {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -moz-transform: translateX(-50%) translateY(-50%);
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+  }
+ }
