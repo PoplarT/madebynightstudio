@@ -208,6 +208,17 @@ background-color: coral;
   text-align: center;
 }
 
+/* fade image in while loading and show a spinner as background image (good for progressive images) */
+
+.lazyload {
+	opacity: 0;
+}
+
+.lazyloading {
+	opacity: 1;
+	transition: opacity 300ms;
+	background: #f7f7f7 url(loader.gif) no-repeat center;
+}
 
 /* mobile css */
 
